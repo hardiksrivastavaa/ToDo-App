@@ -1,4 +1,4 @@
-# JS DOM - Activity - ToDo App
+# JS DOM - Activity -   ToDo App
 ### Hardik
 ## Preview
 
