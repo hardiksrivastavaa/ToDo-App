@@ -48,7 +48,7 @@ ul {
 li {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 23px;
     border: 2px solid black;
     padding: 7px;
     margin: 10px auto;
