@@ -1,25 +1,25 @@
 let input = document.querySelector("input");
 let btn = document.querySelector("button");
-let list = document.querySelector("ul");
-
-function deleteTask(event) {
-  event.target.parentNode.remove();
-}
+let ul = document.querySelector("ul");
 
 btn.addEventListener("click", function () {
   if (input.value !== "") {
-    alert("Task Added!!");
-    let newTask = document.createElement("li");
-    newTask.innerText = input.value;
-
+    let li = document.createElement("li");
+    li.innerText = input.value;
     let deleteBtn = document.createElement("button");
     deleteBtn.classList.add("deleteBtn");
-    deleteBtn.addEventListener("click", deleteTask);
-
-    newTask.appendChild(deleteBtn);
-    list.appendChild(newTask);
-    input.value = ""; // Clear input field after adding task
+    li.appendChild(deleteBtn);
+    ul.appendChild(li);
+    input.value = "";
   } else {
-    alert("Enter your task first!!");
+    alert("Please enter your task first!!");
+  }
+});
+
+ul.addEventListener("click", function (event) {
+  if (event.target.nodeName == "BUTTON") {
+    let listItem = event.target.parentElement;
+    listItem.remove();
+    console.log("deleted");
   }
 });
