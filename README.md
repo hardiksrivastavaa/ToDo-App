@@ -10,7 +10,6 @@ This is a simple ToDo application where you can add tasks to a list and mark the
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
