@@ -31,7 +31,7 @@ To use the ToDo App:
 
 ## Demo
 
-[![ToDo App Preview](preview.png)](https://hardik-techie.github.io/ToDo-App/)
+[![ToDo App Preview](preview.png)](https://hardiksrivastavaa.github.io/ToDo-App/)
 
 ## Technologies Used
 
